@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="main.css">
+  <title>Interactive Navigation Menu</title>
+  <script src="https://kit.fontawesome.com/3458fa077a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div id="header">
+    <div class="container">
+      <nav>
+    <img src="logo.png" class="logo">
+    <ul>
+      <li><a href="#header">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#portfolio">My Works</li>
+      <li><a href="#contact">Contact</a></li>
+     </ul>
+   </nav>
+  <div class="header-text">
+    <p>STUDENT</p>
+    <h1>Hi, I'm <span>SELVA KAVYA</span>From CIT</h1> 
+
+  </div>
+  </div>
+  </div>
+/*----about---*/ 
+ <div id="about">
+<div class="container">
+    <div class="row">
+      <div class="about-col-1">
+        <img src="Web.jpg" >
+      </div>
+      <div class="about-col-2">
+        <h1 class="sub-title">About Me</h1>
+        <p>Greetings! I'm Selva Kavya,from chennai institute of technology is a quick learner with a knack for adapting to diverse situations. 
+         My enthusiasm for embracing new technologies positions me as an agile and resourceful individual, 
+          ready to thrive in dynamic and evolving environments.
+
+        </p> 
+      <div class="tab-titles">
+        <p class="tab-links active-links" onclick="opentab('Skills')">Skills</p>
+        <p class="tab-links"              onclick="opentab('Experience')">Experience</p>
+        <p class="tab-links"              onclick="opentab('Education')">Education</p>
+      </div>
+      <div class="tab-contents active-tab" id="Skills" >
+        <ul>
+          <li><span>Web Development</span><br>Web app Development</li>
+          <li><span>Blender</span><br>Animation Development</li>
+          <li><span>Premier Pro</span><br>Video Creation</li>
+          <li><span>Programming Language</span><br>C,C++,Python,Java,Javascript</li>
+</ul>
+      </div>
+      <div class="tab-contents" id="Experience">
+        <ul>
+          <li><span>2022-Current</span><br>At CIT,chennai</li>
+          <li><span>Dec 2023</span><br>Web Developer at Prodigy Infotech</li>
+          <li><span>Nov 2023</span><br>Web Developer at InternPe</li>
+          <li><span>May 2023</span><br>Network Engineer at CISCO</li>
+</ul>
+      </div>
+      <div class="tab-contents" id="Education">
+        <ul>
+          <li><span>2019</span><br>SSLC From SMMHSS school,Sankarankovil</li>
+          <li><span>2021</span><br>HSC From KMHSS school,Tiruvengadam</li>
+          <li><span>2022</span><br>WEB Developement form UDEMY</li>
+          <li><span>2023</span><br>Cisco network academy courses</li>
+</ul>
+      </div> </div> </div></div></div>
+      
+      <!-------portfolio----------->
+      <div id="portfolio">
+        <div class="container">
+          <h1 class="sub-title">My Work</h1>
+          <div class="work-list">
+            <div class="work">
+              <img src="web work.jpg" alt="">
+              <div class="layer">
+                <h3 style="color:rgb(50, 140, 213); text-align: center;">E-COMMERCE Website</h3>
+              <p style="color:rgb(47, 135, 208); text-align: center;"> This app is make for a  Marketing to reach as much as audience possible
+                to grow their business in an exponencial way.
+              </p>
+              <a href="https://github.com/selvakavya/E-commerce" target="_blank"><i class="fa-solid fa-link"></i></a>
+              </div>
+            </div>
+            <div class="work">
+              <img src="app work.jpg" alt="">
+              <div class="layer">
+                <h3 style="color: rgb(15, 136, 236);; text-align: center;"">RESPONSIVE LANDING PAGE/h3>
+                <p style="color:rgb(37, 121, 190); text-align: center;">This app is created for a theatre to book their tickets 
+                  online.
+                 </p>
+                 <a href="https://github.com/selvakavya/Landing-page" target="_blank"><i class="fa-solid fa-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!------contact-->
+      <div id="contact">
+        <div class="container">
+          <div class="row">
+            <div class="contact-left">
+              <h1 class="sub-title">Contact Me</h1>
+              <p> <i class="fa-regular fa-envelope"></i> kavya030605@gmail.com</p>
+              <p><i class="fa-solid fa-phone"></i> +91 90432 53617</p><br>
+              <div class="social-icons">
+                <a href="https://www.instagram.com/?hl=en" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://x.com/?logout=1718349614587" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://www.linkedin.com/in/selva-kavya-589b8a256?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/selvakavya" target="_blank"><i class="fa-brands fa-github"></i></a>
+              </div>
+              <a href="C:\Users\mahi\Downloads\PRODIGY_WD_04-main (2)\PRODIGY_WD_04-main\Black and White Minimalistic Simple Resume (1).pdf" download class="btn btn2">View Resume</a>
+
+            </div>
+            <div class="contact-right">
+              <form action="https://formsubmit.co/your@email.com" method="POST" >
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email"required>
+                <textarea name="Message" rows="10" placeholder="Your Message"></textarea>
+                <button type="submit" class="btn btn2">submit</button>
+              </form>
+
+            </div>
+          </div> 
+
+        </div>
+        <div class="copyright">
+          <p> Copyright © kavya. Make with <i class="fa-solid fa-heart"></i> by SK Tech</p>
+
+  
+
+        </div>
+      </div>
+  
+  <script>
+    var tablinks =document.getElementsByClassName("tab-links");
+    var tabcontents =document.getElementsByClassName("tab-contents");
+    
+    function opentab(tabname){
+      for(tablink of tablinks){
+        tablink.classList.remove("active-link");
+      }
+      for(tabcontent of tabcontents){ 
+        tabcontent.classList.remove("active-tab");
+      }
+      event.currentTarget.classList.add("active-link");
+      document.getElementById(tabname).classList.add("active-tab")
+ }
+</script>
+
+
+</body>
+</html>
